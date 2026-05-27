@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WANGTranslate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="overlay-body">
+    <div class="header">
+      <span style="font-size:13px;color:var(--text);" data-i18n="translate.title">Input Translate</span>
+      <button class="close-btn" id="closeBtn">&times;</button>
+    </div>
+    <div class="content">
+      <textarea id="inputText" style="flex:1;margin-bottom:8px;" rows="3" data-i18n-placeholder="translate.placeholder"></textarea>
+      <div class="row" style="margin-bottom:12px;gap:4px;">
+        <span id="langInfo" style="font-size:11px;color:var(--text-dim);"></span>
+        <button class="btn btn-primary btn-sm" id="translateBtn" style="margin-left:auto;" data-i18n="translate.translate">Translate</button>
+      </div>
+      <div id="results"></div>
+    </div>
+  </div>
+  <script src="js/i18n.js"></script>
+  <script src="js/input-translate.js"></script>
+</body>
+</html>

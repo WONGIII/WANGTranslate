@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WANGTranslate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="overlay-body">
+    <div class="header">
+      <span style="font-size:13px;color:var(--text);font-weight:500;" data-i18n="ocr.result">OCR Result</span>
+      <div class="row" style="gap:4px;">
+        <button class="btn btn-sm btn-primary" id="translateBtn" data-i18n="translate.translate">Translate</button>
+        <button class="btn btn-sm btn-secondary" id="copyBtn" data-i18n="translate.copy">Copy</button>
+        <button class="close-btn" id="closeBtn">&times;</button>
+      </div>
+    </div>
+    <div class="content" style="white-space:pre-wrap;font-size:14px;line-height:1.7;" id="ocrText">
+      <div class="spinner" id="loading"></div>
+    </div>
+  </div>
+  <script src="js/i18n.js"></script>
+  <script src="js/ocr-overlay.js"></script>
+</body>
+</html>

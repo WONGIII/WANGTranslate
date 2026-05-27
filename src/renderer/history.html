@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WANGTranslate History</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="window-frame">
+    <div class="window-titlebar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#007AFF" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span class="title-text" data-i18n="history.title">History &amp; Favorites</span>
+      <div class="win-controls">
+        <button class="win-btn close" id="closeBtn"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <div class="header" style="background:var(--bg);">
+        <div style="font-size:14px;font-weight:600;color:var(--text);" data-i18n="history.title">History &amp; Favorites</div>
+        <input type="text" id="searchInput" data-i18n-placeholder="history.search" style="width:180px;padding:6px 10px;font-size:11px;">
+      </div>
+      <div class="tab-bar">
+        <div class="tab active" data-tab="translations" data-i18n="history.translations">Translations</div>
+        <div class="tab" data-tab="ocr" data-i18n="history.ocr">OCR</div>
+        <div class="tab" data-tab="favorites" data-i18n="history.favorites">Favorites</div>
+      </div>
+      <div class="content" id="historyContent" style="overflow-y:auto;flex:1;"></div>
+    </div>
+  <script src="js/i18n.js"></script>
+  <script src="js/history.js"></script>
+</body>
+</html>

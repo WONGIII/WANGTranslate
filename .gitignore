@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Electron-builder cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Trained OCR data (large files, downloaded on first use)
+*.traineddata
+
+# Temp
+*.log
+*.tmp

@@ -1,0 +1,25 @@
+{
+  "name": "wangtranslate",
+  "version": "1.0.0",
+  "description": "WANGTranslate - AI-powered translation & OCR tool for Windows",
+  "main": "main.js",
+  "author": "WANGTranslate",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:portable": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.6",
+    "electron-store": "^8.2.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "electron": "^33.4.0",
+    "electron-builder": "^25.1.8"
+  }
+}

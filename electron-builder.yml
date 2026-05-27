@@ -1,0 +1,40 @@
+appId: com.wangtranslate.app
+productName: WANGTranslate
+directories:
+  output: dist
+
+files:
+  - main.js
+  - preload.js
+  - src/**/*
+  - node_modules/**/*
+  - "!node_modules/electron/**"
+  - "!node_modules/electron-builder/**"
+
+extraResources:
+  - from: assets/
+    to: assets/
+    filter:
+      - "**/*"
+
+win:
+  icon: assets/icon.png
+  sign: null
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: WANGTranslate
+
+portable:
+  artifactName: WANGTranslate-portable.exe
+
+asar: true
+compression: maximum
