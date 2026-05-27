@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="#english">English</a> &nbsp;|&nbsp; <a href="#中文">中文</a>
+  <a href="README_EN.md">English</a>
 </p>
 
 ---
@@ -141,52 +141,3 @@ src/renderer/      渲染进程 (HTML/CSS/JS)
 
 MIT
 
----
-
-<h2 id="english">English</h2>
-
-## Features
-
-- **AI Translation** — Bring your own API key. Works with OpenAI, LM Studio, Ollama, and any OpenAI-compatible endpoint
-- **Local OCR** — Offline text recognition via tesseract.js, 9 languages supported
-- **Selection Translate** — Select text, press hotkey, get instant translation popup
-- **Screenshot OCR** — Drag to select screen area, extract text, translate with one click
-- **Silent OCR** — Screenshot text recognition straight to clipboard
-- **Input Translate** — Type or paste text for translation
-- **Multi-API Comparison** — Enable multiple APIs, compare translations side by side
-- **System Tray** — Quietly runs in the tray, always ready
-- **Custom Hotkeys** — Fully customizable global shortcuts
-- **History & Favorites** — Auto-saved records with search
-- **Text-to-Speech** — Read text aloud via system TTS
-- **Bilingual UI** — Chinese / English switch anytime
-- **Auto Startup** — Launch with Windows
-
-### OCR Languages
-
-English, Simplified Chinese, Traditional Chinese, Japanese, Korean, French, German, Spanish, Russian
-
-### Translation Languages
-
-20 languages: Auto Detect, Chinese (Simplified & Traditional), English, Japanese, Korean, French, German, Spanish, Russian, Portuguese, Italian, Arabic, Thai, Vietnamese, Indonesian, Dutch, Polish, Turkish, Ukrainian
-
----
-
-## Download
-
-Visit [Releases](https://github.com/WONGIII/WANGTranslate/releases) for the latest version.
-
----
-
-## Quick Start
-
-1. Download and install (or run portable version)
-2. Click tray icon or press hotkey to open **Settings**
-3. Go to **API** tab → add your AI endpoint
-4. Go to **Shortcuts** tab → bind your hotkeys
-5. Start translating!
-
----
-
-## Development & License
-
-See [中文 section above](#中文) for tech stack, project structure, and build instructions. MIT License.
